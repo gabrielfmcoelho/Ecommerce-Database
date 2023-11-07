@@ -6,6 +6,16 @@ Este é o projeto final para a disciplina de Banco de Dados, no qual desenvolvem
 
 O objetivo deste projeto é modelar e implementar um banco de dados completo para operações de um e-commerce especializado em produtos eletrônicos. A base de dados inclui informações sobre produtos, usuários, pedidos, pagamentos, e categorias.
 
+## Documentação Completa
+
+A documentação completa do projeto pode ser encontrada no arquivo [NOME_DO_ARQUIVO_DE_DOCUMENTAÇÃO]. O arquivo contém informações detalhadas sobre o projeto, incluindo:
+
+- Descrição do projeto
+- Minimundo
+- Diagramas utilizados
+- Scripts utilizados
+- Instruções para execução do projeto
+
 ## Diagramas de Banco de Dados
 
 ### Modelo Entidade-Relacionamento (ERD)
@@ -22,16 +32,7 @@ Os scripts SQL estão organizados no diretório `scripts/`. Destacamos alguns do
 - `populate_database.sql`: Preenche o banco de dados com dados de exemplo.
 - `manipulate_database.sql`: Contém consultas e operações para manipulação do banco de dados.
 
-## Documentação
-
-A documentação do projeto pode ser encontrada no arquivo [NOME_DO_ARQUIVO_DE_DOCUMENTAÇÃO]. O arquivo contém informações detalhadas sobre o projeto, incluindo:
-
-- Descrição do projeto
-- Diagramas utilizados
-- Scripts utilizados
-- Instruções para execução do projeto
-
-## Utilização do Docker
+## Instruções para Utilização
 
 Facilitamos a configuração do MySQL com uma imagem Docker. Siga as instruções abaixo para clonar o repositório, construir a imagem Docker e iniciar o container.
 
@@ -77,11 +78,11 @@ docker stop nome-do-container
 ```
 
 ## Autoria
-Autor: Gabriel Coelho
-Autor: Samuel Martins
-Disciplina: Banco de Dados
-Tema: E-commerce de Eletrônicos
-Instituição: ICEV
+* Autor: Gabriel Coelho
+* Autor: Samuel Martins
+* Disciplina: Banco de Dados
+* Tema: E-commerce de Eletrônicos
+* Instituição: ICEV
 
 ## Informações adicionais
 
