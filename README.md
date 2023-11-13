@@ -46,7 +46,7 @@ Para clonar o repositório, execute os seguintes comandos:
 
 ```bash
 git clone https://github.com/gabrielfmcoelho/EcommerceDataBase.git
-cd seu-projeto
+cd Ecommerce-Database
 ```
 
 ### Construir a Imagem Docker
