@@ -1,0 +1,3 @@
+INSERT INTO Fornecedor (ID, CNPJ, NOME) VALUES
+(1, 12345678901234, 'Fornecedor A'),
+(2, 56789012345678, 'Fornecedor B');
