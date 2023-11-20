@@ -8,29 +8,29 @@ O objetivo deste projeto é modelar e implementar um banco de dados completo par
 
 ## Documentação Completa
 
-A documentação completa do projeto pode ser encontrada no arquivo [NOME_DO_ARQUIVO_DE_DOCUMENTAÇÃO]. O arquivo contém informações detalhadas sobre o projeto, incluindo:
+A documentação completa do projeto pode ser encontrada no arquivo [Documentos/Trabalho_Final.pdf]. O arquivo contém informações detalhadas sobre o projeto, incluindo:
 
 - Descrição do projeto
 - Minimundo
-- Diagramas utilizados
+- Dicionário de dados
+- Modelo Conceitual
+- Modelo Relacional
+- Normalização
 - Scripts utilizados
 - Instruções para execução do projeto
 
 ## Diagramas de Banco de Dados
 
-### Modelo Entidade-Relacionamento (ERD)
-![ERD](link_para_imagem_erd.png)
-
 ### Diagrama de Esquema do Banco de Dados
-![Diagrama de Esquema](link_para_imagem_schema.png)
+![Diagrama de Esquema](Diagramas/DiagramaEntidadeRelacional.png)
 
 ## Scripts SQL
 
 Os scripts SQL estão organizados no diretório `scripts/`. Destacamos alguns dos principais scripts:
 
-- `create_database.sql`: Cria a estrutura do banco de dados.
-- `populate_database.sql`: Preenche o banco de dados com dados de exemplo.
-- `manipulate_database.sql`: Contém consultas e operações para manipulação do banco de dados.
+- `/Criação/`: Conjunto de scripts, que fazem uso do comando DDL: `CREATE`, para criar as tabelas do banco de dados e suas características.
+- `/População/`: Conjunto de scripts, que fazem uso do comando DML: `INSERT`, para popular as tabelas do banco de dados com dados de exemplo, cada uma com 10 registros.
+- `/Consulta/`: Conjunto de scripts de referência, que fazem uso de diversos comandos DQL como: `GROUP BY`, `JOIN` e outros para extração de informações do banco de dados. Além disso, cada script possui um nome sugestivo para a consulta que realiza e contem abaixo das instruções SQL, um comentario com a notação em algebra relacional equivalente.
 
 ## Instruções para Utilização
 
@@ -86,4 +86,4 @@ docker stop nome-do-container
 
 ## Informações adicionais
 
-Caso tenha alguma dúvida ou sugestão, entre em contato conosco através do email [EMAIL_DE_CONTATO]
+Caso tenha alguma dúvida ou sugestão, entre em contato conosco através do email [gabrielcoelho09gc@gmail.com]
